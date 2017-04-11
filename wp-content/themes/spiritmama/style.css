@@ -1490,7 +1490,7 @@ body .tp-bullets.simplebullets.round .bullet.selected {
 	font-size:36px;
 	line-height:36px;
 	color:#fff;
-	float:left;
+	text-align:center;
 }
 
 .newsletter_title span {
@@ -1504,7 +1504,7 @@ body .tp-bullets.simplebullets.round .bullet.selected {
 }
 
 .newsletter_form {
-	padding-left:380px;
+	padding-left:0px;
 	padding-top:19px;
 }
 
@@ -2803,6 +2803,21 @@ a.read_more_tesitmonials {
 
 .testimonial_wrapper {
 	padding-bottom:20px;
+}
+
+.newsletter-col-text {
+	float:left;
+	width:40%;
+	margin-left:15px;
+}
+
+.newsletter-col-text:first-of-type {
+	margin-left:0;
+}
+
+.newsletter-col-button {
+	float:left;
+	margin-left:25px;
 }
 
 @media only screen and (min-height:500px) and (min-width:1024px) {
