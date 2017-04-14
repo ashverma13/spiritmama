@@ -1,3 +1,9 @@
+@media only screen and (min-width:1500px) {
+	.site-inner {
+		max-width:100%;
+	}
+}
+
 @media only screen and (max-width:1024px) {
 	.right_side_points, .leftPadd {
 		padding-left:0;
@@ -56,12 +62,19 @@
 	.hexagon:after {
 		bottom:-200px;
 	}
+	
+	.program-includes-wrapper .right_side_points, .leftPadd {
+		clear:none;
+		padding-left:310px;
+	}
+	
+	
 }
 
 @media only screen and (max-width:768px) {
 	.logo {
 		float:none;
-		margin:0 auto;
+		margin:10px auto 0;
 		display:block;
 		position:static;
 	}
@@ -73,7 +86,7 @@
 		margin:0 10px;
 	}
 	.nav-primary, .nav-secondary {
-		padding:20px 0 0;
+		padding:5px 0 0;
 		font-size:0;
 		display:inline-block;
 		float:none;
@@ -157,6 +170,61 @@
 	.approach_description .desc_points {
 		float:none;
 	}
+	.newsletter-col-text {
+		width:37%;
+	}
+	.newsletter-col-button {
+		margin-left:10px;
+	}
+	.blockquote blockquote {
+		font-size:33px;
+	}
+	
+	.info_box {
+		max-width:500px;
+		margin:0px auto;
+	}
+	
+	.info_box:nth-of-type(2), .info_box:nth-of-type(2n+3) {
+		margin:1px auto;
+	}
+	
+	.blockquote-sleep blockquote {
+		font-size:27px;
+	}
+	
+	.quote h1 {
+		font-size:26px;
+	}
+	
+	.quote_img.image_right {
+		margin-left:0;
+	}
+	
+	.right_info li:nth-of-type(6) {
+		margin-left:75px;
+	}
+	
+	.right_info li:nth-of-type(5) {
+		margin-left:30px;
+	}
+	
+	.left_info li:nth-of-type(5) {
+		margin-right:60px;
+	}
+	
+	.left_info li:nth-of-type(6) {
+		margin-right:75px;
+	}
+	
+	.image_left, .image_right {
+		max-width:50%;
+	}
+	
+	.post:not(.blog_post) .post-image {
+		max-width:50%;
+	}
+		
 }
 
 @media only screen and (max-width:600px) {
@@ -257,7 +325,7 @@
 		padding:0;
 	}
 	.main_title span {
-		padding:0 5px;
+		padding:0 10px;
 		display:inline-block;
 	}
 	.main_title {
@@ -381,7 +449,106 @@
 	}
 	.comment-respond input[type="email"], .comment-respond input[type="text"], .comment-respond input[type="url"] {
 		width:100%;
+	}	
+	.blog_post {
+		float:none;
+		width:100%;
 	}
+	.newsletter-col-text {
+		float:none;
+		width:100%;
+		margin:8px 0;
+	}
+	.newsletter-col-button {
+		float:none;
+		text-align:center;
+		margin:15px 0 0;
+	}
+	.mc4wp-form-fields .newsletter-col-text input[type="text"], .mc4wp-form-fields .newsletter-col-text input[type="email"] {
+		margin:0px auto;
+	}
+	
+	.newsletter_form input, .newsletter-widget input {
+		float:none;
+	}
+	
+	.footer-widgets-3 #nav_menu-2 {
+		float:none;
+		margin:0px auto;
+	}
+	
+	.footer-widgets .menu {
+		text-align:center;
+	}
+	
+	.footer-widgets .menu li {
+		font-size:12px;
+	}
+	
+	.footer-widgets-3 #nav_menu-3 {
+		float:none;
+	}	
+	
+	.program_details .image_right {
+		max-width:80%;
+		text-align:center;
+		margin:0px auto 20px;
+	}
+	
+	.testimonial_rotator_quote {
+		padding-top:25px;
+	}
+	
+	.main_title3 {
+		font-size:30px;
+	}
+	
+	.program-includes-wrapper .right_side_points, .leftPadd {
+		clear:both;
+		padding-left:0px;
+	}
+	
+	.quote_img.image_right {
+		padding-top:0;
+	}
+	
+	.blockquote {
+		padding:10px 0;
+	}
+	
+	.image_left, .image_right {
+		max-width:100%;
+	}
+	
+	.post:not(.blog_post) .post-image {
+		max-width:100%;
+	}
+	
+	.single-post a.alignleft, .single-post img.alignleft, .single-post .wp-caption.alignleft {
+		margin:0;
+		padding:10px 0;
+	}	
+	
+	.testimonial_rotator_single .table-cell:first-of-type {
+		margin:0px auto;
+	}
+	
+	.otherTestimonials .leftBtn {
+		float:none;
+		display:block;
+		max-width:450px;
+		text-align:center;
+	}
+	
+	.otherTestimonials .rightBtn {
+		float:none;
+		display:block;
+		max-width:450px;
+		text-align:center;
+		margin-top:30px;
+	}
+	
+	
 }
 
 @media only screen and (max-width:480px) {
@@ -426,4 +593,40 @@
 	.info_box {
 		border-radius:0 100px;
 	}
+	
+	.blockquote blockquote {
+		font-size:22px;
+	}
+	
+	.blockquote {
+		padding-bottom:10px;
+	}
+	
+	.main_title {
+		font-size:19px;
+		margin-bottom:25px;
+	}
+	
+	.info_box h1 {
+		font-size:19px;
+	}
+	
+	.info_box p {
+		padding:0 10px;
+	}
+	
+	.program_details .image_right {
+		max-width:100%;
+	}
+	
+	.main_title3 {
+		font-size:26px;
+		margin-bottom:15px;
+	}
+	
+	.hexagon h1 {
+		font-size:26px;
+	}
+	
+	
 }

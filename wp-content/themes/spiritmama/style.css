@@ -182,9 +182,10 @@ a {
 
 .wrapper, .page-template-page_blog .content-sidebar-wrap, .single-post .content-sidebar-wrap, .category .content-sidebar-wrap {
 	position:relative;
-	max-width:960px;
+	max-width:980px;
 	margin:0 auto;
-	width:98%;
+	width:100%;
+	padding:0 10px;
 }
 
 a:hover {
@@ -1325,7 +1326,12 @@ li.comment {
 .footer-widgets {
 	background-color: #333;
 	clear: both;
-	padding-top: 40px;
+	padding-top: 10px;
+}
+
+.footer-widgets .newsletter {
+	padding:0;
+	background:none;
 }
 
 .footer-widgets,
@@ -1500,12 +1506,13 @@ body .tp-bullets.simplebullets.round .bullet.selected {
 
 .newsletter {
 	background:url(images/pattern.png) repeat #f58c86;
-	padding:30px 0 20px;
+	padding:25px 0 20px;
 }
 
 .newsletter_form {
 	padding-left:0px;
-	padding-top:19px;
+	padding-top:0px;
+	padding-bottom:10px;
 }
 
 .newsletter_form input, .newsletter-widget input {
@@ -2807,7 +2814,7 @@ a.read_more_tesitmonials {
 
 .newsletter-col-text {
 	float:left;
-	width:40%;
+	width:39%;
 	margin-left:15px;
 }
 
@@ -2819,6 +2826,164 @@ a.read_more_tesitmonials {
 	float:left;
 	margin-left:25px;
 }
+
+.blockquote p {
+	padding:0 10px;
+}
+.white-span {
+	background-color:#fff;
+}
+
+.followButtons {
+	text-align:center;
+}
+
+.followButtons a {
+	display:inline-block;
+	margin:35px 10px 0;
+}
+
+.new-wrapper-about {
+	padding-top:50px;
+}
+
+.investment .learn_more_btn, input.paypal_button_form_submit, .wpcf7-form input.wpcf7-submit {
+	width:240px;
+}
+
+.sidebar {
+	display:none;
+}
+
+.content-sidebar-wrap .content {
+	width:100%;
+}
+
+.page-template-page_blog .post .entry-content p {
+	font-size:18px;
+	font-family: "Alegreya",Arial,Helvetica,sans-serif;
+	color:#666;
+	font-weight:normal;
+	line-height:1.5;
+}
+
+.post:not(.blog_post) .post-image {
+	margin-right:25px;
+}
+
+.page-template-page_blog p.entry-meta {
+	font-size:20px;
+}
+
+.pagination {
+	text-align:center;
+}
+
+.post:not(.blog_post) .entry-title a, .single-post .entry-title {
+	text-transform:capitalize;
+	color:#ffaaab;
+	font-family: "Alegreya",Arial,Helvetica,sans-serif;
+}
+
+.entry-content {
+	font-size:18px;
+	font-family: "Alegreya",Arial,Helvetica,sans-serif;
+	color:#666;
+	font-weight:normal;
+	line-height:1.5;
+}
+
+.comment-respond, .entry-pings {
+	padding-left:0;
+}
+
+.archive-pagination li a:hover, .archive-pagination .active a {
+	background-color:#ffaaab;
+}
+
+.single-post a.alignleft, .single-post img.alignleft, .single-post .wp-caption.alignleft {
+	margin:0;
+	padding:10px;
+}
+
+.testimonial_rotator_description a {
+	display:none;
+}
+
+
+.testimonial_rotator_description a.read_more_tesitmonials {
+	display:inline-block;
+}
+
+.otherTestimonials .main_btn {
+	background-color:#ffaaab;
+	color:#fff;
+	height:41px;
+	display:inline-block;
+	padding:0 25px;
+	line-height:39px;
+}
+
+.otherTestimonials .main_btn:hover {
+	background-color:#333333;
+}
+
+.otherTestimonials .leftBtn {
+	float:left;
+}
+
+.otherTestimonials .rightBtn {
+	float:right;
+}
+
+.clear:before,
+.clear:after {
+	clear:both;
+	display:table;
+	content:"";
+}
+
+.otherTestimonials {
+	padding:25px 0;
+}
+
+.otherTestimonials br {
+	display:none;
+}
+
+.single-testimonial .testimonial_text {
+	text-shadow:none;
+	color:#666;
+	font-size:18px;
+	line-height:1.5;
+}
+
+body .testimonial_rotator .has-image .img, body .testimonial_rotator_single.has-image .img {
+	width:100%;
+	margin:0;
+}
+
+.testimonial_rotator_single .table-cell:first-of-type {
+	width:200px;
+}
+
+.testimonial_rotator_single .table-cell:first-of-type img {
+	border-radius:50%;
+}
+
+.entry-categories, .entry-tags {
+	display:none;
+}
+
+.single-testimonial .site-inner {
+	max-width:980px;
+}
+
+
+
+
+
+
 
 @media only screen and (min-height:500px) and (min-width:1024px) {
 	body > .site-container > .site-header {
